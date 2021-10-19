@@ -9,7 +9,7 @@ import { CardActionArea, CardActions } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
 import Stack from '@mui/material/Stack';
 
-export default function MultiActionAreaCard() {
+export default function ProductList() {
 
     const [product, setProduct] = useState([]);
     
