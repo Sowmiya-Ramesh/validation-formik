@@ -1,34 +1,4 @@
-// import React from 'react';
-// import { Form, FormGroup, Input, Label ,Button} from "reactstrap";
-// import { Link } from "react-router-dom";
 
-// function AddProduct() {
-//     return (
-//         <div>
-//             <h1>Add product here</h1>
-//             <Form>
-//                 <FormGroup>
-//                     <Label>Product </Label>
-//                     <Input type="text" placeholder="Enter Product"></Input>
-//                 </FormGroup>
-//                 <FormGroup>
-//                     <Label>Image</Label>
-//                     <Input type="text" placeholder="Enter Image"></Input>
-//                 </FormGroup>
-//                 <FormGroup>
-//                     <Label>Price </Label>
-//                     <Input type="text" placeholder="Enter Price"></Input>
-//                 </FormGroup>
-               
-//                 <Button type="submit">Submit</Button>
-
-//                 <Link to="/" className="btn btn-danger ml-2">Cancel</Link>
-//             </Form>
-//         </div>
-//     )
-// }
-
-// export default AddProduct
 
 import { Button, Typography, TextField } from "@material-ui/core";
 import { useHistory, useState } from "react-router-dom";
